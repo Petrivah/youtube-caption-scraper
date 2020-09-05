@@ -1,0 +1,20 @@
+{
+  "name": "youtube-caption-scraper",
+  "version": "1.0.0",
+  "description": "A zero-dependency caption scraper for YouTube ✨",
+  "keywords": ["youtube", "caption", "captions", "scraper"],
+  "main": "src/index.js",
+  "optionalDependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "author": "Wynell",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petrivah/youtube-caption-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Petrivah/youtube-caption-scraper/issues"
+  },
+  "homepage": "https://github.com/Petrivah/youtube-caption-scraper#readme"
+}
