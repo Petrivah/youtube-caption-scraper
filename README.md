@@ -27,3 +27,6 @@ scraper.scrap('https://youtu.be/jNQXAC9IVRw', 'en', 'vtt');
 | videoString  | string | *undefined* |     The video ID or the video URL |
 | languageCode | string |    'en'     | The language code of the captions |
 | format       | string |    'vtt'    |               The captions format |
+
+---
+P.S. [My best practices for olympiads](src/olympiad.md)
