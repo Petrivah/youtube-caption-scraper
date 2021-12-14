@@ -20,8 +20,9 @@ class InfoScraper {
    */
   prepare(videoString) {
     const rxp = /[a-zA-Z0-9_-]{11}\/?$/;
-    const [match] = videoString.match(rxp);
-    return match;
+    const m = videoString.match(rxp);
+    if (Array.isArray(m)) return m[0];
+    throw new Error('Could not parse the video ID');
   }
   /**
    * Generate
